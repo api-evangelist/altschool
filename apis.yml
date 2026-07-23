@@ -1,7 +1,28 @@
 aid: altschool
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altschool.png
 name: AltSchool
-description: AltSchool is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AltSchool was an American education-technology company founded in 2013 by former Google
+  executive Max Ventilla to build a network of small private "lab" schools around a personalized,
+  student-directed learning model, using those campuses to develop a K-12 software platform for
+  assignments and progress tracking. It raised more than $170 million from investors including
+  Founders Fund, Andreessen Horowitz (a16z), Mark Zuckerberg's CZI, and Peter Thiel. In 2017-2019
+  the company closed or handed off its for-profit schools (to Higher Ground Education) and pivoted
+  to selling the software as "Altitude Learning," with Ventilla stepping down as CEO. The venture is
+  now defunct as an independent operation: the altschool.com domain no longer resolves and
+  altitudelearning.com redirects to Guidepost Montessori. No public developer, API, or documentation
+  surface was found; this record is retained as a historical VC-portfolio company profile.
 url: https://raw.githubusercontent.com/api-evangelist/altschool/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founded: '2013'
+x-founder: Max Ventilla
+x-successor: Altitude Learning
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Education
+- EdTech
+- Personalized Learning
+- K-12
+- Learning Management
+- Venture Backed
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
